@@ -52,7 +52,7 @@ CoordinatorAgent runs everything automatically.
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/rony926/Intelligent-Task-Oriented-Multi-Agent-System-for-Automated-Cybersecurity-Monitor.git
 cd <repo-name>
 
 Linux / macOS:
