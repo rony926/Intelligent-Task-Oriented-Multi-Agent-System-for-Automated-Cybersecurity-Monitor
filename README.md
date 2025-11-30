@@ -9,10 +9,15 @@ It demonstrates how enterprise-grade AI agents can automate SOC (Security Operat
 ##**Features**
 
 -Collector Agent – Extracts system/network logs.
+
 -Detection Agent – Identifies suspicious activity (e.g., brute-force, reverse-shell).
+
 -Threat Intel Agent – Maps threats to MITRE ATT&CK categories.
+
 -Analyst Agent – Generates threat summaries and severity analysis.
+
 -Report Agent – Produces executive-level security reports.
+
 -Coordinator Agent – Orchestrates the entire workflow end-to-end.
 
 ##**Architecture Diagram**
