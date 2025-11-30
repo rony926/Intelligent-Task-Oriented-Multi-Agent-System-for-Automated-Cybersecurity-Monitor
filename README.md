@@ -8,31 +8,37 @@ It demonstrates how enterprise-grade AI agents can automate SOC (Security Operat
 
 ##**Features**
 
--Collector Agent – Extracts system/network logs.
+- Collector Agent – Extracts system/network logs.
 
--Detection Agent – Identifies suspicious activity (e.g., brute-force, reverse-shell).
+- Detection Agent – Identifies suspicious activity (e.g., brute-force, reverse-shell).
 
--Threat Intel Agent – Maps threats to MITRE ATT&CK categories.
+- Threat Intel Agent – Maps threats to MITRE ATT&CK categories.
 
--Analyst Agent – Generates threat summaries and severity analysis.
+- Analyst Agent – Generates threat summaries and severity analysis.
 
--Report Agent – Produces executive-level security reports.
+- Report Agent – Produces executive-level security reports.
 
--Coordinator Agent – Orchestrates the entire workflow end-to-end.
+- Coordinator Agent – Orchestrates the entire workflow end-to-end.
 
 ##**Architecture Diagram**
 
 The project includes a full architecture diagram:
 
-Collector → Detection → Threat Intel → Analyst → Report → Coordinator
+```python
 
+Collector → Detection → Threat Intel → Analyst → Report → Coordinator
+```
 
 A PNG version is included in the repository for visualization.
 
 ##**Project Structure**
+```python
 │── full_agents_system.py
+
 │── requirements.txt
+
 │── README.md
+```
 
 ##**How It Works**
 
@@ -90,7 +96,7 @@ This project fits the Enterprise Track because it automates cybersecurity workfl
 
 ##**Future Enhancements**
 
--Real-time SIEM integration
--Dashboard UI for SOC teams
--Automated remediation agent
--LLM-powered anomaly detection
+- Real-time SIEM integration
+- Dashboard UI for SOC teams
+- Automated remediation agent
+- LLM-powered anomaly detection
