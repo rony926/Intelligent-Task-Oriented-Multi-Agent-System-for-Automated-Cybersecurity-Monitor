@@ -1,6 +1,7 @@
 # Intelligent-Task-Oriented-Multi-Agent-System-for-Automated-Cybersecurity-Monitor
 This capstone project focuses on designing and implementing an Intelligent Multi-Agent System (MAS) that can autonomously monitor system sec
-## ** Multi-Agent Cybersecurity Monitoring System **
+
+## **Multi-Agent Cybersecurity Monitoring System**
 Agents Intensive – Capstone Project
 
 This project implements an autonomous, multi-agent cybersecurity monitoring system designed to collect logs, detect anomalies, identify threats, map activity to the MITRE ATT&CK framework, and generate executive security reports.
