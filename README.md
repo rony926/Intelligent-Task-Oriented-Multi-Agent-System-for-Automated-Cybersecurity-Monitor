@@ -7,7 +7,7 @@ Agents Intensive – Capstone Project
 This project implements an autonomous, multi-agent cybersecurity monitoring system designed to collect logs, detect anomalies, identify threats, map activity to the MITRE ATT&CK framework, and generate executive security reports.
 It demonstrates how enterprise-grade AI agents can automate SOC (Security Operations Center) workflows.
 
-##**Features**
+## **Features**
 
 - Collector Agent – Extracts system/network logs.
 
@@ -21,7 +21,7 @@ It demonstrates how enterprise-grade AI agents can automate SOC (Security Operat
 
 - Coordinator Agent – Orchestrates the entire workflow end-to-end.
 
-##**Architecture Diagram**
+## **Architecture Diagram**
 
 The project includes a full architecture diagram:
 
@@ -32,7 +32,7 @@ Collector → Detection → Threat Intel → Analyst → Report → Coordinator
 
 A PNG version is included in the repository for visualization.
 
-##**Project Structure**
+## **Project Structure**
 ```python
 │── full_agents_system.py
 
@@ -41,7 +41,7 @@ A PNG version is included in the repository for visualization.
 │── README.md
 ```
 
-##**How It Works**
+## **How It Works**
 
 1.CollectorAgent reads system logs.
 2.DetectionAgent scans log entries for anomalies.
@@ -50,7 +50,7 @@ A PNG version is included in the repository for visualization.
 5.ReportAgent generates a final executive report.
 6.CoordinatorAgent runs everything automatically.
 
-##**Installation**
+## **Installation**
 
 Clone the repository:
 ```python
@@ -78,24 +78,24 @@ Run the system:
 python3 full_agents_system.py
 
 ```
-###**Example Output**
+### **Example Output**
 Executive Security Report
 Generated: 2025-01-01 11:00
 
 - Brute Force detected: Failed SSH login ...
 - Reverse Shell Attempt detected: suspicious netcat command ...
 
-##**Recommendations:**
+## **Recommendations:**
 - Enable fail2ban
 - Block suspicious IPs
 - Enforce MFA for root access
 
-##**Submission Track (Agents Intensive)**
+## **Submission Track (Agents Intensive)**
 
 Enterprise Agents Track
 This project fits the Enterprise Track because it automates cybersecurity workflows, integrates multiple AI-driven agents, and simulates real SOC operations.
 
-##**Future Enhancements**
+## **Future Enhancements**
 
 - Real-time SIEM integration
 - Dashboard UI for SOC teams
